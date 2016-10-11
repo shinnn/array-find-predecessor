@@ -1,0 +1,36 @@
+{
+  "name": "array-find-predecessor",
+  "description": "Find a predecessor value of the array that should be chosen when a given array index is deleted",
+  "keywords": [
+    "find",
+    "array",
+    "value",
+    "substitute",
+    "candidate",
+    "fallback",
+    "reserve",
+    "choice",
+    "predecessor"
+  ],
+  "main": "module.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/array-find-predecessor.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sub-index": "^1.0.0"
+  },
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
