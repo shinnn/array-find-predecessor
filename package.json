@@ -5,7 +5,7 @@
   "repository": "shinnn/array-find-predecessor",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
-    "prebuild": "eslint --fix module.js test.js",
+    "prebuild": "eslint --fix --format=codeframe module.js test.js",
     "build": "rollup --config=node:module",
     "pretest": "npm run-script build",
     "test": "istanbul cover test.js"
@@ -31,8 +31,8 @@
     "sub-index": "^1.0.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config": "^3.3.0",
-    "eslint": "^3.7.1",
+    "@shinnn/eslint-config": "^3.3.2",
+    "eslint": "^3.9.1",
     "istanbul": "^0.4.5",
     "rollup": "^0.36.3",
     "rollup-config-module": "^1.0.0",

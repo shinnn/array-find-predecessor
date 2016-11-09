@@ -36,7 +36,7 @@ test('arrayFindSuccessor()', t => {
 
   t.throws(
     () => arrayFindSuccessor([], 0),
-    /^Error.*Expected a non-empty array, but got \[\]\./,
+    /^Error.*Expected a non-empty array, but got \[]\./,
     'should throw an error when the first argument is an empty array.'
   );
 
