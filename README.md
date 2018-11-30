@@ -1,11 +1,8 @@
 # array-find-predecessor
 
-[![NPM version](https://img.shields.io/npm/v/array-find-predecessor.svg)](https://www.npmjs.com/package/array-find-predecessor)
-[![Bower version](https://img.shields.io/bower/v/array-find-predecessor.svg)](https://github.com/shinnn/array-find-predecessor/releases)
-[![Build Status](https://travis-ci.org/shinnn/array-find-predecessor.svg?branch=master)](https://travis-ci.org/shinnn/array-find-predecessor)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/array-find-predecessor.svg)](https://coveralls.io/r/shinnn/array-find-predecessor)
-[![dependencies Status](https://david-dm.org/shinnn/array-find-predecessor/status.svg)](https://david-dm.org/shinnn/array-find-predecessor)
-[![devDependencies Status](https://david-dm.org/shinnn/array-find-predecessor/dev-status.svg)](https://david-dm.org/shinnn/array-find-predecessor?type=dev)
+[![npm version](https://img.shields.io/npm/v/array-find-predecessor.svg)](https://www.npmjs.com/package/array-find-predecessor)
+[![Build Status](https://travis-ci.com/shinnn/array-find-predecessor.svg?branch=master)](https://travis-ci.com/shinnn/array-find-predecessor)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/array-find-predecessor.svg)](https://coveralls.io/github/shinnn/array-find-predecessor)
 
 Find a predecessor value of the array that should be chosen when a given index is deleted
 
@@ -22,25 +19,23 @@ arrayFindPredecessor(array, 0); //=> 'bar'
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install array-find-predecessor
 ```
 
-### [bower](https://bower.io/)
-
-```
-bower install array-find-predecessor
-```
-
 ## API
+
+```javascript
+import arrayFindPredecessor from 'array-find-predecessor';
+```
 
 ### arrayFindPredecessor(*array*, *index*)
 
 *array*: `Array` (non-empty array)  
-*index*: `Number` (index of the array assumed to be deleted)  
-Return: `Number` or `null`
+*index*: `integer` (index of the array assumed to be deleted)  
+Return: `integer` or `null`
 
 Essentially, it returns an array value one index before the given `index`.
 
@@ -80,6 +75,6 @@ arrayFindPredecessor(['A'], 0); //=> null
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2016 - 2018 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
